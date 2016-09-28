@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="esamikshya">
+		<class>org.sdrc.crvs.domain.SamikshyaBlock</class>
+		<class>org.sdrc.crvs.domain.SamikshyaCluster</class>
+		<class>org.sdrc.crvs.domain.SamikshyaDistrict</class>
+		<class>org.sdrc.crvs.domain.SamikshyaFeaturePermissionMapping</class>
+		<class>org.sdrc.crvs.domain.SamikshyaMonitoringForm</class>
+		<class>org.sdrc.crvs.domain.SamikshyaMonitoringFormTran</class>
+		<class>org.sdrc.crvs.domain.SamikshyaRoleScheme</class>
+		<class>org.sdrc.crvs.domain.SamikshyaUserRoleSchemeMapping</class>
+		<class>org.sdrc.crvs.domain.SamikshyaAreaMapper</class>
+		<class>org.sdrc.crvs.domain.SamikshyaFeature</class>
+		<class>org.sdrc.crvs.domain.SamikshyaPemission</class>
+		<class>org.sdrc.crvs.domain.SamikshyaRole</class>
+		<class>org.sdrc.crvs.domain.SamikshyaState</class>
+		<class>org.sdrc.crvs.domain.SamikshyaUser</class>
+		
+	</persistence-unit>
+</persistence>
